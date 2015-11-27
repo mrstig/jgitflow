@@ -44,8 +44,8 @@
     </prerequisites>
 
     <scm>
-        <connection>scm:git:ssh://git@bitbucket.org/atlassian/jgit-flow.git</connection>
-        <developerConnection>scm:git:ssh://git@bitbucket.org/atlassian/jgit-flow.git</developerConnection>
+        <connection>scm:git:ssh://git@github.com:mrstig/jgitflow.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:mrstig/jgitflow.git</developerConnection>
         <url>https://bitbucket.org/atlassian/jgit-flow</url>
         <tag>HEAD</tag>
     </scm>
@@ -260,7 +260,7 @@
                     <pushFeatures>true</pushFeatures>
                     <pushReleases>true</pushReleases>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <defaultOriginUrl>git@bitbucket.org:atlassian/jgit-flow.git</defaultOriginUrl>
+                    <defaultOriginUrl>https://github.com/mrstig/jgitflow.git</defaultOriginUrl>
                 </configuration>
             </plugin>
             <plugin>
